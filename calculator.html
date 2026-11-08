@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>calculator</title>
+</head>
+<body >
+    <link rel="stylesheet" href="calculator.css">
+    <div id="calculator" class="my">
+<input type="text" id="display" class="my"readonly>
+<br>
+<button class="enter" onclick="c='  ';document.querySelector('#display').value=c;">c</button>
+<button class="enter" onclick="c=c+'1' ;document.querySelector('#display').value=c;"> 1        </button>
+<button class="enter" onclick="c=c+'2' ;document.querySelector('#display').value=c;">   2      </button>
+<br>
+<button class="enter" onclick="c=c+ '+' ;document.querySelector('#display').value=c;">  +     </button>
+ <button class="enter" onclick="c=c+ '3';document.querySelector('#display').value=c;">  3     </button>      
+<button class="enter" onclick="c=c+'4' ;document.querySelector('#display').value=c;">   4   </button>
+<br>
+<button class="enter" onclick="c=c+ '-' ;document.querySelector('#display').value=e;">   -  </button>
+<button class="enter" onclick="c=c+ '5';document.querySelector('#display').value=c;">     5    </button>
+<button class="enter" onclick="c=c+'6' ;document.querySelector('#display').value=c;">      6   </button>
+<br>
+<button class="enter" onclick="c=c+ '*' ;document.querySelector('#display').value=c;">       *  </button>
+<button class="enter" onclick="c=c+'7' ;document.querySelector('#display').value=c;">    7     </button>
+<button class="enter" onclick="c=c+'8' ;document.querySelector('#display').value=c;">     8    </button>
+<br>
+<button class="enter" onclick="c=c+'/' ;document.querySelector('#display').value=c;">      /   </button>
+<button class="enter" onclick=" let result=eval(c) ;c=result ;document.querySelector('#display').value=c;">     =    </button>
+<button class="enter" onclick="c=c+'9' ;document.querySelector('#display').value=c;">      9   </button>
+<br>
+<button class="enter" onclick="c=c+'0' ;document.querySelector('#display').value=c;">       0  </button>
+<button class="enter" onclick="c=c+'.' ;document.querySelector('#display').value=c;">  .   </button>
+</div>
+
+        <script>
+            let c=' ';
+            document.querySelector('#calculator').value=c;
+
+        </script>
+</body>
+</html>

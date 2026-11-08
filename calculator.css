@@ -1,0 +1,5 @@
+#calculator{ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStc9ZXAnEZmFsRutclP6_lLPeC0jF_JWBXumlzLE49QJBradSJsU0ZV6ud&s=10");background-size:cover;border-style:solid;margin-left:20px;margin-top:10px; align-self:center;padding-block:1px;padding-inline:2px;
+width:300px;height:500px;border-radius:5px;}
+.enter{font-size:25px; background-color:rgb(100, 102, 237);width:60px;text-align:center;margin-top:30px;margin-left:20px;}
+#display{ font-size:15px;border-style:solid;border-width:7px;border-color:bisque;height:50px;}
+.my{margin-top:20px;margin-left:40px;}
